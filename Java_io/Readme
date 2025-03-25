@@ -1,0 +1,12 @@
+# To perform input and output operation
+
+## we nned to import java.io
+
+1. Byte Stream - can read and write data in bytes(8 bits)
+2. Char Stream - this can read and write in data data 2 bytes (16 bits)
+
+## when we are working with text data char stream is prefrred otherwise Byte Strem
+
+## to improve the io operation(read and write) Buffering is used.
+
+### there is also the bridge classes.

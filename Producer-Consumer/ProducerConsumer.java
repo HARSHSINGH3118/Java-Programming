@@ -54,7 +54,6 @@ class Producer implements Runnable {
     }
 }
 
-// Consumer Class
 class Consumer implements Runnable {
     private final SharedResource resource;
 
@@ -87,3 +86,6 @@ public class ProducerConsumer {
         consumerThread.start();
     }
 }
+
+
+// implement the program where cointainer can hold k number of problem.
