@@ -1,3 +1,4 @@
+
 import java.io.File;
 
 class Fileio {
@@ -6,10 +7,9 @@ class Fileio {
     }
 
     public static void main(String args[]) {
-        // Specify the file path (Change this to an existing file path)
         File f1 = new File("Introduction.txt");
 
-        if (f1.exists()) { // Check if the file exists
+        if (f1.exists()) {
             p("File Name: " + f1.getName());
             p("Absolute Path: " + f1.getAbsolutePath());
             p("Parent Directory: " + f1.getParent());
